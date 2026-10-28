@@ -129,11 +129,10 @@ class Parser:
             if href is not None:
                 self.links_list.append(href)
 
-        # clear_ads: оставляем только ссылки на товары
         self.clear_ads = [item for item in self.links_list
                           if item is not None and '/product/' in item]
 
-        # первая ссылка не нужна
+
         self.clear_ads = self.clear_ads[1:]
 
         logging.info(f"Всего ссылок найдено: {len(self.links_list)} | "
