@@ -1,11 +1,22 @@
 import time
 import os
+import logging
+import getpass
+import sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import pandas as pd
 
+logging.basicConfig(                            #настройка логера
+    filename='7745_stat.log',
+    level=logging.INFO,
+    format='%(asctime)s | %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    force=True,
+    encoding='utf-8'
+)
 
 class Parser:
 
@@ -13,6 +24,8 @@ class Parser:
         self.link = link
         self.driver = webdriver.Chrome()
         self.driver.get(self.link)
+        self.username = getpass.getuser()
+        self.script_name = os.path.basename(sys.argv[0])
         self.info_list = []
         self.links_list = []
         self.clear_ads = []
@@ -78,7 +91,7 @@ class Parser:
         words = ['Основные характеристики', 'Особенности', 'Функции',
                 'Защита', 'Габариты и вес', 'Габариты упаковки']
 
-        for link in self.clear_ads[:5]:
+        for link in self.clear_ads:
             self.info_list = []
             self.driver.get(link)
             time.sleep(3)
