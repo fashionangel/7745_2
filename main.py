@@ -24,18 +24,18 @@ def main():
 
         parser.show_product()
         time.sleep(1)
-    except Exception as e:
-        print(e)
 
-    all_links = parser.get_all_links_on_page()
-    for link in all_links:
-        print(link)
+        all_links = parser.get_all_links_on_page()
+        for link in all_links:
+            print(link)
 
-    parser.get_info()
-    print(parser.info_list)
+        parser.get_info()
+        print(parser.info_list)
 
-    parser.creating_csv_file()
-
+        parser.creating_csv_file()
+    except Exception:
+        parser.switchOptions()
+        main()
 
 
 

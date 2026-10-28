@@ -1,0 +1,43 @@
+2026-10-28 15:11:35 | Начало | Пользователь: User | Скрипт: main.py
+2026-10-28 15:11:38 | cookie-баннер закрыт
+2026-10-28 15:11:43 | Кликаю фильтр 'Электро'
+2026-10-28 15:11:43 | Фильтр 'Электро' применён
+2026-10-28 15:11:44 | Кликаю фильтр мощности (1)
+2026-10-28 15:11:44 | Фильтр мощности (1) применён
+2026-10-28 15:11:46 | Кликаю фильтр мощности (2)
+2026-10-28 15:11:46 | Фильтр мощности (2) применён
+2026-10-28 15:11:47 | Кликаю фильтр 'Mange'
+2026-10-28 15:11:47 | Фильтр 'Mange' применён
+2026-10-28 15:11:50 | Нажимаю кнопку 'Показать товары'
+2026-10-28 15:11:50 | Кнопка 'Показать товары' нажата
+2026-10-28 15:11:51 | Собираю ссылки со страницы
+2026-10-28 15:11:52 | Всего ссылок найдено: 122 | товаров после фильтрации: 25
+2026-10-28 15:11:52 | Начинаю парсинг объявлений: 25 шт.
+2026-10-28 15:11:52 | Обрабатываю: https://7745.by/product/konvektor-thermex-frame-e-wi-fi
+2026-10-28 15:12:07 | Обрабатываю: https://7745.by/product/konvektor-thermex-frame-e-wi-fi#p758386
+2026-10-28 15:12:20 | Обрабатываю: https://7745.by/product/konvektor-thermex-frame-e-wi-fi#p758428
+2026-10-28 15:12:32 | Обрабатываю: https://7745.by/product/konvektor-ballu-bec-evu#p840038
+2026-10-28 15:12:48 | Обрабатываю: https://7745.by/product/konvektor-electrolux-ech-ag2-3be-eec#p951388
+2026-10-28 15:13:02 | Обрабатываю: https://7745.by/product/konvektor-electrolux-ech-ag2-3be-eec
+2026-10-28 15:13:15 | Обрабатываю: https://7745.by/product/konvektor-neoclima-aura-w
+2026-10-28 15:13:29 | Обрабатываю: https://7745.by/product/konvektor-ballu-plinth-transformer-bec-pl
+2026-10-28 15:13:44 | Обрабатываю: https://7745.by/product/konvektor-ballu-plinth-transformer-bec-pl#p840033
+2026-10-28 15:13:55 | Обрабатываю: https://7745.by/product/konvektor-ballu-plinth-transformer-bec-pl#p840045
+2026-10-28 15:14:07 | Обрабатываю: https://7745.by/product/konvektor-ballu-plinth-transformer-bec-pl#p838586
+2026-10-28 15:14:19 | Обрабатываю: https://7745.by/product/1043900
+2026-10-28 15:14:33 | Обрабатываю: https://7745.by/product/konvektor-neoclima-aura-b
+2026-10-28 15:14:47 | Обрабатываю: https://7745.by/product/konvektor-neoclima-aura-w#p848518
+2026-10-28 15:14:59 | Обрабатываю: https://7745.by/product/konvektor-neoclima-aura-b#p848500
+2026-10-28 15:15:11 | Обрабатываю: https://7745.by/product/konvektor-neoclima-optima-w
+2026-10-28 15:15:24 | Обрабатываю: https://7745.by/product/0991126
+2026-10-28 15:15:37 | Обрабатываю: https://7745.by/product/konvektor-funai-chikara-ech-che-wt-inverter-wi-fi
+2026-10-28 15:15:51 | Обрабатываю: https://7745.by/product/konvektor-neoclima-optima-w#p848531
+2026-10-28 15:16:08 | Обрабатываю: https://7745.by/product/konvektor-funai-chikara-ech-che-wt-inverter-wi-fi#p904926
+2026-10-28 15:16:26 | Обрабатываю: https://7745.by/product/konvektor-energolux-ech-e-j1-bg#p848054
+2026-10-28 15:16:44 | Обрабатываю: https://7745.by/product/konvektor-energolux-ech-e-j1-bg#p848026
+2026-10-28 15:17:00 | Обрабатываю: https://7745.by/product/konvektor-energolux-ech-e-j1-wg#p848018
+2026-10-28 15:17:19 | Обрабатываю: https://7745.by/product/konvektor-energolux-ech-e-j1-wg#p848014
+2026-10-28 15:17:33 | Обрабатываю: https://7745.by/product/0951664
+2026-10-28 15:17:48 | Парсинг завершён. Успешно обработано: 25 из 25
+2026-10-28 15:17:48 | Формирую CSV-файл
+2026-10-28 15:17:48 | CSV сохранён: var.csv | строк: 25 | колонок: 35
